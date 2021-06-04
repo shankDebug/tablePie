@@ -1,0 +1,22 @@
+#res {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#res td, #res th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#res tr:nth-child(even){background-color: #f2f2f2;}
+
+#res tr:hover {background-color: #ddd;}
+
+#res th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
